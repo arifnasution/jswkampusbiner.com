@@ -1,2 +1,2 @@
-# jswkampusbiner.com
+# jswkampusbiner
 Bootcamp Javascript with Kampus Biner 
