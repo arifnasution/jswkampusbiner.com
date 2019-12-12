@@ -1,0 +1,85 @@
+*{
+	margin: 0px; padding: 0px;
+	font-family: 'Roboto Condensed', sans-serif; font-weight: normal;
+    max-width: 100% !important;
+    
+}
+
+
+body{
+    background-color: #eaeaea;
+    color: #333; 
+}
+
+a{
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+img {
+	max-width: 100%; max-height: 100%;
+}
+
+/* ---------- Navbar CSS ------------ */
+nav {
+    background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+    padding: 10px 10px; font-size: 20px;
+	height: 50px; line-height:50px;
+}
+
+nav .logo {
+    color: #fff;
+}
+
+
+/* ---------------- Container CSS ---------- */
+.container {
+    max-width: 1024px; max-height: 520px;
+    width: 960px; height: 480px;
+    margin: 80px auto; background-color: #fff;
+}
+
+.container h1 {
+    padding: 20px; font-size: 20px;
+}
+
+.container .isi {
+    padding: 20px 20px; line-height: 25px;
+}
+
+/* --------------- Component CSS ------------- */
+
+.btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c; border-radius: 0.6em;
+    color: #e74c3c; cursor: pointer;
+    display: inline-block; align-self: center;
+    font-size: 1rem; font-weight: 400;
+    line-height: 1; margin: 4px;
+    padding: 1.2em 1.8em; text-decoration: none;
+    text-align: center; text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;font-weight: 700;
+  }
+  .btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+  }
+  
+  .first {
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+  .first:hover {
+    box-shadow: 0 0 40px 40px #e74c3c inset;
+  }
+
+
+
+
+
