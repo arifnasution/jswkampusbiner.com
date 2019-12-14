@@ -91,7 +91,7 @@ nav .logo {
 		font-size: 30px;
     }
     
-    .btn {
+    .btn > .first > .small  {
         color:blue;
         font-size: .5em; font-weight: 200;
         line-height: 1; margin: 4px;
